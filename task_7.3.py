@@ -25,7 +25,7 @@
 # for timeOut in range(time):
 #     print(text)
 
-for number in range(20):
+for number in range(21):
     print(number ** 2)
 
     
