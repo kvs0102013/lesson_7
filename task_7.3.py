@@ -12,10 +12,15 @@
 # for number in range(11): # Возведение в квадрат чисел от 1 до 10 с помощью randge диапазона
 #     print(number ** 2)  
 
-totalMonths = int(input ('Сколько денег в месяц будем откладывать?'))
-summa = 0
-for months in range(totalMonths):
-    print('Месяц' , months)
-    money = int(input('Сколько денег откладываем в месяц'  ))
-    summa += money
-print('За', totalMonths , 'накоплено  денег' , summa)    
+# totalMonths = int(input ('Сколько месяцев будем копить?'))
+# summa = 0
+# for months in range(totalMonths):
+#     print('Месяц' , months)
+#     money = int(input('Сколько денег откладываем в месяц'  ))
+#     summa += money
+# print('За', totalMonths , 'накоплено  денег' , summa)    
+
+time = int(input(' Который час?'))
+text = 'Ку-ку'
+for timeOut in range(time):
+    print(text)3
