@@ -20,7 +20,12 @@
 #     summa += money
 # print('За', totalMonths , 'накоплено  денег' , summa)    
 
-time = int(input(' Который час?'))
-text = 'Ку-ку'
-for timeOut in range(time):
-    print(text)3
+# time = int(input(' Который час?'))
+# text = 'Ку-ку'
+# for timeOut in range(time):
+#     print(text)
+
+for number in range(20):
+    print(number ** 2)
+
+    
